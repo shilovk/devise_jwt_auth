@@ -6,9 +6,12 @@ require_relative 'tokens_serialization'
 module DeviseJwtAuth::Concerns::ActiveRecordSupport
   extend ActiveSupport::Concern
 
-  included do
-    serialize :tokens, DeviseJwtAuth::Concerns::TokensSerialization
-  end
+  # Not support for Rails 7.2.2
+  # Used in model User:
+  # attribute :tokens, DeviseJwtAuth::Concerns::TokensSerializationType.new
+  # included do
+  #   serialize :tokens, DeviseJwtAuth::Concerns::TokensSerialization
+  # end
 
   class_methods do
     # It's abstract replacement .find_by
