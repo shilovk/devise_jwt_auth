@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.version     = DeviseJwtAuth::VERSION
   s.authors     = ['ShilovK']
   s.email       = ['shilovk@gmail.com']
-  s.homepage    = 'http://github.com/aarona/devise_jwt_auth'
+  s.homepage    = 'http://github.com/shilovk/devise_jwt_auth'
   s.summary     = 'JWT based authentication port of Devise Token Auth.'
   s.description = 'Rails 7.2.2 support. Supports silent refresh with client side single page apps in mind.'
   s.license     = 'WTFPL'
