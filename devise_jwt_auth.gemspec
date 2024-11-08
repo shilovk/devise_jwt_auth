@@ -7,7 +7,7 @@ require 'devise_jwt_auth/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'devise_jwt_auth7'
+  s.name        = 'devise_jwt_auth'
   s.version     = DeviseJwtAuth::VERSION
   s.authors     = ['ShilovK']
   s.email       = ['shilovk@gmail.com']
