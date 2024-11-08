@@ -7,13 +7,13 @@ require 'devise_jwt_auth/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'devise_jwt_auth'
+  s.name        = 'devise_jwt_auth7'
   s.version     = DeviseJwtAuth::VERSION
-  s.authors     = ['Aaron A']
-  s.email       = ['_aaron@tutanota.com']
+  s.authors     = ['ShilovK']
+  s.email       = ['shilovk@gmail.com']
   s.homepage    = 'http://github.com/aarona/devise_jwt_auth'
   s.summary     = 'JWT based authentication port of Devise Token Auth.'
-  s.description = 'Supports silent refresh with client side single page apps in mind.'
+  s.description = 'Rails 7.2.2 support. Supports silent refresh with client side single page apps in mind.'
   s.license     = 'WTFPL'
 
   s.files      = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
